@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python Learning
 
 This repository contains beginner-friendly Python examples and exercises covering core programming concepts.
@@ -19,3 +20,6 @@ This repository contains beginner-friendly Python examples and exercises coverin
     dictionaries 
     loops 
     if-elif-else conditions
+=======
+# Python-Learning
+>>>>>>> ab4d5fdde988c6b91a5d093bed14dee592650d64
