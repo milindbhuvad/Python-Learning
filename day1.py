@@ -1,5 +1,4 @@
-# Day 1: Python basics and fundamentals
-
+# Variables and Data Types in Python
 name = "Milind"
 age = 38
 salary = 100000.00
@@ -11,7 +10,6 @@ print(type(name))
 print(type(age))
 print(type(salary))
 print(type(is_employed))
-print()
 
 # 2. String concatenation and f-strings
 full_message = "Hello, " + name + "!"
