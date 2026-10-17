@@ -23,3 +23,12 @@ This repository contains beginner-friendly Python examples and exercises coverin
     - if-elif-else conditions
     - Practical example — skill checker
     - Practical employee example
+
+- `day3.py`
+    - Functions in Python
+        - Function with parameters
+        - Function with return value
+        - Default arguments
+        - Keyword arguments
+    
+    - Exception handling — try and except
