@@ -32,3 +32,13 @@ This repository contains beginner-friendly Python examples and exercises coverin
         - Keyword arguments
     
     - Exception handling — try and except
+
+- `day4.py`
+    - Object-Oriented Programming (OOP)
+        - Class and object basics
+        - Constructors and instance methods
+        - Encapsulation with private attributes
+        - Inheritance and method overriding
+        - Abstract classes and interfaces
+        - Static methods and class methods
+
