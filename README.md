@@ -2,6 +2,12 @@
 
 This repository contains beginner-friendly Python examples and exercises covering core programming concepts.
 
+# Python Installation
+- Download it from the official Python website
+- To check python version run below command
+    - python --version
+
+
 ## Files
 
 - `day1.py` 
