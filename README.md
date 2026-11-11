@@ -48,3 +48,14 @@ This repository contains beginner-friendly Python examples and exercises coverin
         - Abstract classes and interfaces
         - Static methods and class methods
 
+- `day 7/main.py`
+    - FastAPI REST API basics
+        - CRUD operations for products
+        - In-memory storage using a Python list
+        - Request validation with Pydantic models
+        - HTTPException for error responses
+
+Note:
+- The project continues with hands-on Python practice and backend API development.
+- Day 7 introduces FastAPI, which is used to build simple REST endpoints for create, read, update, and delete operations.
+
