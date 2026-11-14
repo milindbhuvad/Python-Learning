@@ -70,10 +70,20 @@ This repository contains beginner-friendly Python examples and exercises coverin
         - Prints a success message when the DB connection is established
         - Helps verify MySQL is available before running database logic
 
+- `day_9_crud_api.py`
+    - FastAPI CRUD API with MySQL
+        - Create product: `POST /products`
+        - Read all products: `GET /products`
+        - Read one product: `GET /products/{product_id}`
+        - Update product: `PUT /products/{product_id}`
+        - Delete product: `DELETE /products/{product_id}`
+        - Uses `mysql.connector` to connect to the database and perform SQL operations
+
 Note:
 - The project continues with hands-on Python practice and backend API development.
 - Day 7 introduces FastAPI, which is used to build simple REST endpoints for create, read, update, and delete operations.
 - Day 8 focuses on connecting Python to a MySQL database and validating that the database server is reachable.
+- Day 9 builds a complete CRUD API using FastAPI and MySQL to manage product records in a database.
 
 
 
