@@ -55,7 +55,25 @@ This repository contains beginner-friendly Python examples and exercises coverin
         - Request validation with Pydantic models
         - HTTPException for error responses
 
+- `day_8_database.py`
+    - Run below command to install MySQL connector
+        python -m pip install mysql-connector-python
+
+    - Database connectivity with MySQL
+        - Using `mysql.connector` to connect to a database
+        - Configuring host, username, password, and database name
+        - Verifying the connection with `is_connected()`
+        - Preparing for future CRUD operations using Python and SQL
+
+- `day_8_database_test.py`
+    - Testing the database connection
+        - Prints a success message when the DB connection is established
+        - Helps verify MySQL is available before running database logic
+
 Note:
 - The project continues with hands-on Python practice and backend API development.
 - Day 7 introduces FastAPI, which is used to build simple REST endpoints for create, read, update, and delete operations.
+- Day 8 focuses on connecting Python to a MySQL database and validating that the database server is reachable.
+
+
 
