@@ -79,11 +79,23 @@ This repository contains beginner-friendly Python examples and exercises coverin
         - Delete product: `DELETE /products/{product_id}`
         - Uses `mysql.connector` to connect to the database and perform SQL operations
 
+- `day10_main.py`, `day10_database.py`, `day10_models.py`, `day10_schemas.py`
+    - FastAPI CRUD API using SQLAlchemy ORM and MySQL
+        - Install SQLAlchemy and the PyMySQL driver:
+          ```bash
+          python -m pip install sqlalchemy pymysql
+          ```
+        - Configure the MySQL connection in `day10_database.py`
+        - Define the product table with a SQLAlchemy model
+        - Validate product request and response data with Pydantic schemas
+        - Create, read, update, and delete products using SQLAlchemy sessions
+
 Note:
 - The project continues with hands-on Python practice and backend API development.
 - Day 7 introduces FastAPI, which is used to build simple REST endpoints for create, read, update, and delete operations.
 - Day 8 focuses on connecting Python to a MySQL database and validating that the database server is reachable.
 - Day 9 builds a complete CRUD API using FastAPI and MySQL to manage product records in a database.
+- Day 10 refactors database operations to use SQLAlchemy ORM models and sessions with the PyMySQL driver.
 
 
 
